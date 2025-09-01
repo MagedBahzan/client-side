@@ -1,12 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Courses from "./componants/CoursesData";
-import "./CourseDetailesStyle.css";
+import "./AllNewsStyles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
-import PageHeaderTemplate from "./componants/Courses-page-componants/Courses-page-header";
 
-function AllNews() {
+function AllNews() {   
+  
   const param = useParams();
   console.log(param.id);
   const [courseData, setCourseData] = React.useState(null);
@@ -62,14 +62,7 @@ function AllNews() {
     <div className="course-detailes-page">
       {courseData ? (
         <>
-          <div>
-            <PageHeaderTemplate
-              heading={courseData.heading}
-              paragriph={courseData.paragriph}
-            />
-          </div>
-
-          <div className="course-detailes-list">
+                    <div className="course-detailes-list">
             {courseDetailes ? courseDetailes : null}
           </div>
         </>
