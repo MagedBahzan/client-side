@@ -1,0 +1,103 @@
+.footer-section-container {
+  width: 1920px;
+  height: 475px;
+  background-color: #fff;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-sub-container {
+  width: 1595px;
+  height: 215px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  width: 395px;
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.buttons-contacts {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.buttons-contacts > div {
+  display: flex;
+}
+
+.buttons-contacts > div > p {
+  font-size: 18px;
+  color: #262626;
+  margin-left: 15px;
+}
+
+.footer-page-sections {
+  width: 810px;
+  height: 175px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer-page-sections > div {
+  display: flex;
+  flex-direction: column;
+}
+.footer-page-sections > div a {
+  height: 25px;
+  color: #59595A;
+  font-size: 18px;
+  margin: 5px;
+  text-transform: capitalize;
+}
+
+.footer-page-sections > div a:first-child, .social-Profiles {
+  font-size: 20px;
+  font-weight: 600;
+  color: #262626;
+}
+
+.social-pages {
+  width: 185px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social-pages a{
+  width: 50px;
+  height: 50px;
+}
+
+.social-pages a svg {
+  font-size: 24px;
+}
+
+.horizintal-line {
+  width: 1595px;
+  height: 0px;
+  border-top: solid 2px #f1f1f3;
+}
+
+.footer-section-container > p:last-child {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #656567;
+}

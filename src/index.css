@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body {
+  background-color: #f7f7f8;
+}
+a {
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+}
+a:hover {
+  cursor: pointer;
+}
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+.display-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.display-flex-colmun {
+  display: flex;
+  flex-direction: column;
+}
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+.flex-justify-center {
+  justify-content: center;
+}
+.active-link {
+  background-color: #f1f1f3;
+}
+.home,
+.Courses-page,
+.course-detailes-page,
+.login-page {
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1535px) {
+  .home,
+  .Courses-page,
+  .course-detailes-page,
+  .login-page {
+    width: 1400px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .home,
+  .Courses-page,
+  .course-detailes-page,
+  .login-page {
+    width: 390px;
+  }
+}

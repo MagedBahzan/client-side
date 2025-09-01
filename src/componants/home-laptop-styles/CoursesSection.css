@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1536px) {
+  .courses-section-container {
+    width: 1279px;
+    height: 2049px;
+    margin-top: 80px;
+  }
+
+  .courses-section-container > div:first-child {
+    height: 109px;
+  }
+
+  .courses-top-header {
+    width: 933px;
+    height: 109px;
+  }
+  .courses-top-header > p:first-child {
+    height: 57px;
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .courses-top-header > p:last-child {
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .view-all-courses {
+    width: 96px;
+    height: 49px;
+    border-radius: 6px;
+  }
+
+  .courses-section-image img {
+    width: 549px;
+    height: 266px;
+    border-radius: 8px;
+  }
+
+  .courses-section-image > div {
+    width: 549px;
+  }
+
+  .courses-section-image > div > div:first-child {
+    width: 185px;
+    height: 34px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .courses-section-image > div > div:last-child {
+    font-size: 16px;
+  }
+
+  .courses-slides-container {
+    height: 1880px;
+  }
+
+  .courses-slides-container > div {
+    width: 629px;
+    height: 613px;
+    border-radius: 10px;
+  }
+
+  .courses-slids-paragraph {
+    width: 549px;
+    height: 112px;
+  }
+  .courses-slids-paragraph p:first-child {
+    width: 549px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .courses-slids-paragraph p:last-child {
+    width: 549px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .courses-slids-button-container {
+    width: 549px;
+    height: 49px;
+    border-radius: 6px;
+  }
+  .courses-slids-button-container a {
+    border-radius: 6px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,24 @@
+.ads-container {
+  width: 1595px;
+  height: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+  background-color: #fff;
+}
+.ads-container div {
+  height: 95px;
+  width: 220px;
+  border-right: solid 3px #f1f1f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ads-container div:last-child {
+  border: none;
+}
+.ads-container div img {
+  width: 70px;
+  height: 35px;
+}

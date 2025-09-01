@@ -1,0 +1,375 @@
+.login-container {
+  width: 1590px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.login-header-about {
+  width: 52%;
+}
+.login-header {
+  width: 100%;
+  margin-bottom: 80px;
+}
+.login-header p:first-child {
+  font-size: 38px;
+  color: #262626;
+  line-height: 150%;
+}
+.login-header p:last-child {
+  font-size: 18px;
+  color: #59595a;
+  line-height: 150%;
+}
+.login-about-card {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 100%;
+}
+.login-about-card > p {
+  padding: 50px;
+  color: #4c4c4d;
+  font-size: 18px;
+}
+.login-about-card > div {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.login-about-card > div > div:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.login-about-card > div > div:first-child > p {
+  font-weight: bold;
+}
+.login-about-card > div > div > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+.login-about-card > div > div:last-child {
+  padding: 18px 24px;
+}
+.login-form-container {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 50px 0px 0px 0px;
+}
+.login-form-header {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-form-header > p:first-child {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.login-form-header > p:last-child {
+  font-size: 18px;
+  color: #4c4c4d;
+}
+.login-form {
+  margin: 50px 0px;
+  width: 85%;
+}
+.login-form > form {
+  width: 100%;
+}
+.login-form > form > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.login-form-therd {
+  margin-bottom: 14px;
+}
+.login-form-fourth {
+  align-items: flex-end !important;
+  margin: 24px 0px;
+  font-size: 18px;
+}
+.login-form-Policy {
+  font-size: 18px;
+  width: 100%;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-bottom: 24px;
+}
+.login-form-fifth {
+  width: 100%;
+  flex-direction: row-reverse !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  margin-bottom: 24px;
+}
+.login-form-fifth > label,
+.login-form-fifth > input {
+  width: auto !important;
+  margin: 0px !important;
+  line-height: 150% !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #656567 !important;
+}
+.login-form-fifth > input, .login-form-Policy > input {
+  width: 30px !important;
+  height: 30px;
+  margin-right: 10px !important;
+}
+.login-form-sexth > input {
+  border-radius: 10px;
+  background-color: #ff9500;
+  color: #fff;
+}
+.login-form > form > div > label {
+  font-size: 18px;
+  line-height: 150%;
+  color: #262626;
+  font-weight: bold;
+  margin-bottom: 14px;
+  width: 100%;
+}
+.login-form > form > div > input {
+  font-size: 18px;
+  padding: 24px;
+  border: none;
+  width: 100%;
+}
+.login-form-or-line {
+  font-size: 18px;
+  color: #98989a;
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-form-or-line > hr {
+  width: 45%;
+}
+.login-google-Sign-Up div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.login-google-Sign-Up div:first-child {
+  margin: 30px 0px;
+  background-color: #f7f7f8;
+  padding: 20px 24px;
+  font-weight: bold;
+  color: #262626;
+}
+
+/*media Query start*/
+@media only screen and (max-width: 1535px) {
+  .login-container {
+    width: 1280px;
+    margin-top: 50px;
+  }
+  .login-header {
+    margin-bottom: 60px;
+  }
+  .login-header p:first-child {
+    font-size: 30px;
+  }
+  .login-header p:last-child {
+    font-size: 16px;
+  }
+  .login-about-card {
+    border-radius: 10px;
+  }
+  .login-about-card > p {
+    padding: 40px;
+    font-size: 16px;
+  }
+  .login-about-card > div {
+    padding: 24px 40px;
+    font-size: 16px;
+  }
+  .login-about-card > div > div > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  .login-about-card > div > div:last-child {
+    padding: 14px 16px;
+  }
+  .login-form-container {
+    border-radius: 10px;
+    padding: 40px 0px 0px 0px;
+  }
+  .login-form-header > p:first-child {
+    font-size: 38px;
+    margin-bottom: 8px;
+  }
+  .login-form-header > p:last-child {
+    font-size: 16px;
+  }
+  .login-form {
+    margin: 40px 0px;
+  }
+  .login-form-Policy{
+    font-size: 16px;
+  }
+  .login-form-therd {
+    margin-bottom: 10px;
+  }
+  .login-form-fourth {
+    align-items: flex-end !important;
+    margin: 18px 0px;
+    font-size: 16px;
+  }
+  .login-form-fifth {
+    margin-bottom: 18px;
+  }
+  .login-form-fifth > label,
+  .login-form-fifth > input {
+    font-size: 16px;
+  }
+  .login-form-fifth > input, .login-form-Policy > input {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .login-form-sexth > input {
+    border-radius: 8px;
+  }
+  .login-form > form > div > label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .login-form > form > div > input {
+    font-size: 16px;
+    padding: 18px;
+  }
+  .login-form-or-line {
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+  .login-google-Sign-Up div {
+    font-size: 16px;
+  }
+  .login-google-Sign-Up div:first-child {
+    margin: 24px 0px;
+    padding: 16px 24px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .login-container {
+    width: 360px;
+    flex-direction: column-reverse;
+    margin-top: 30px;
+  }
+  .login-header-about {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .login-header {
+    margin-bottom: 40px;
+  }
+  .login-header p:first-child {
+    font-size: 28px;
+  }
+  .login-header p:last-child {
+    font-size: 14px;
+  }
+  .login-about-card {
+    border-radius: 10px;
+  }
+  .login-about-card > p {
+    padding: 30px;
+    font-size: 14px;
+  }
+  .login-about-card > div {
+    padding: 20px 30px;
+    font-size: 14px;
+  }
+  .login-about-card > div > div:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .login-about-card > div > div:first-child > p {
+    font-weight: bold;
+  }
+  .login-about-card > div > div > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  .login-about-card > div > div:last-child {
+    padding: 18px 24px;
+  }
+  .login-form-container {
+    width: 100%;
+    border-radius: 10px;
+    padding: 30px 0px 0px 0px;
+  }
+  .login-form-header > p:first-child {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  .login-form-header > p:last-child {
+    font-size: 14px;
+  }
+  .login-form {
+    margin: 30px 0px;
+  }
+  .login-form-Policy{
+    font-size: 14px;
+  }
+  .login-form-fifth {
+    margin: 20px 0px;
+    font-size: 14px;
+  }
+   .login-form-fifth {
+    margin-bottom: 20px;
+  }
+   .login-form-fifth > label,
+   .login-form-fifth > input {
+    font-size: 14px;
+  }
+   .login-form-fifth > input, .login-form-Policy > input {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .login-form-sexth > input {
+    border-radius: 6px;
+  }
+  .login-form > form > div > label {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .login-form > form > div > input {
+    font-size: 14px;
+    padding: 20px;
+  }
+  .login-form-or-line {
+    font-size: 14px;
+    margin: 24px 0px;
+  }
+  .login-google-Sign-Up div {
+    font-size: 14px;
+  }
+  .login-google-Sign-Up div:first-child {
+    margin: 24px 0px;
+    padding: 16px 24px;
+  }
+}

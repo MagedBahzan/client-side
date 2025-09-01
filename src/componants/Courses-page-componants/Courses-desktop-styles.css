@@ -1,0 +1,115 @@
+.Courses-page-header {
+  width: 1860px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  border-bottom: solid 2px #e4e4e7;
+  padding-bottom: 50px;
+}
+.Courses-page-header p {
+  width: 40%;
+}
+.Courses-page-header p:first-child {
+  font-size: 48px;
+  font-weight: 600;
+}
+.Courses-page-header p:last-child {
+  font-size: 18px;
+  margin-left: 100px;
+  color: #59595a;
+}
+.courses-list-container {
+  width: 1595px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.courses-list-container > div {
+  width: 100%;
+  padding: 50px;
+  margin: 50px 0px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.courses-list-paragraph {
+  display: flex;
+  align-items: flex-end;
+}
+.courses-list-paragraph div:first-child {
+  width: 85%;
+}
+.courses-list-paragraph div:first-child p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #262626;
+  line-height: 150%;
+}
+.courses-list-paragraph div:first-child p:last-child {
+  font-size: 18px;
+  color: #59595a;
+  line-height: 150%;
+}
+.view-course-button-container {
+  width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.view-course-button-container a {
+  font-size: 18px;
+  padding: 18px 24px;
+  border: solid 1px #f1f1f3;
+  border-radius: 8px;
+}
+.courses-list-image {
+  margin-top: 30px;
+}
+.courses-list-image > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.courses-list-image > div > img {
+  width: 32%;
+  border-radius: 8px;
+}
+.info-sub-container > div {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+.info-sub-container p {
+  padding: 10px 16px;
+  font-size: 18px;
+  color: #59595a;
+}
+.curriculum-container {
+  margin: 50px 0px;
+  border: solid 1px #f1f1f3;
+  border-radius: 12px;
+}
+.curriculum-container p:first-child {
+  border-bottom: solid 1px #f1f1f3;
+}
+.curriculum-container p {
+  padding: 24px 30px;
+  width: 100%;
+  font-size: 22px;
+  color: #262626;
+}
+.curriculum-container > div {
+  display: flex;
+  justify-content: space-between;
+}
+.curriculum {
+  width: 15%;
+}
+.curriculum p:first-child {
+  font-size: 50px;
+  color: #262626;
+  font-weight: bolder;
+}
+.curriculum p:last-child {
+  font-size: 18px;
+  color: #333333;
+}

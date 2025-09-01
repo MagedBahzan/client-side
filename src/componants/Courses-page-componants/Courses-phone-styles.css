@@ -1,0 +1,112 @@
+@media only screen and (max-width: 400px) {
+  .Courses-page-header {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border-bottom: solid 1px #e4e4e7;
+    padding-bottom: 30px;
+  }
+  .Courses-page-header p {
+    width: 100%;
+  }
+  .Courses-page-header p:first-child {
+    font-size: 28px;
+    color: #262626;
+  }
+  .Courses-page-header p:last-child {
+    font-size: 14px;
+    margin: 16px 0 0 0;
+  }
+  .courses-list-container {
+    width: 360px;
+  }
+  .courses-list-container > div {
+    width: 100%;
+    padding: 24px;
+    margin: 0px;
+    border-radius: 8px;
+  }
+  .courses-list-paragraph {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .courses-list-paragraph div:first-child {
+    width: 100%;
+  }
+  .courses-list-paragraph div:first-child p:first-child {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .courses-list-paragraph div:first-child p:last-child {
+    font-size: 14px;
+  }
+  .view-course-button-container {
+    width: 40%;
+    margin-top: 20px;
+  }
+  .view-course-button-container a {
+    font-size: 14px;
+    padding: 14px 16px;
+    border-radius: 6px;
+  }
+  .courses-list-image {
+    margin-top: 24px;
+  }
+  .courses-list-image > div {
+    margin-bottom: 24px;
+  }
+  .courses-list-image > div > img {
+    width: 32%;
+    border-radius: 4px;
+    aspect-ratio: 1/1;
+  }
+  .info-sub-container{
+    flex-direction: column;
+  }
+  .info-sub-container > div {
+    width: 75%;
+  }
+  .info-sub-container p {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  .info-sub-container > p:last-child {
+    font-size: 16px;
+    font-weight: bold;
+    color: #262626;
+  }
+  .curriculum-container {
+    margin: 0px;
+  }
+  .curriculum-container > p:first-child {
+    padding: 14px 20px;
+    font-weight: 600;
+    font-size: 16px;
+  } 
+  .curriculum-container p {
+    width: 100%;
+    color: #262626;
+  }
+  .curriculum-container > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px;
+  }
+  .curriculum {
+    width:auto;
+    padding: 20px 0;
+    border-bottom: solid 1px #f1f1f3;
+
+  }
+  .curriculum p:first-child {
+    font-size: 30px;
+    padding: 0px;
+    border: none;
+  }
+  .curriculum p:last-child {
+    font-size: 14px;
+    padding: 0px;
+  }
+}

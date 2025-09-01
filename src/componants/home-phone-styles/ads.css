@@ -1,0 +1,25 @@
+@media only screen and (max-width: 400px) {
+  .ads-container {
+    width: 360px;
+    height: 85px;
+    margin-top: 50px;
+  }
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .ads-container div {
+    height: 65px;
+    width: 30%;
+    border: none;
+  }
+  .mobile-border {
+    border-left: solid 2px #f1f1f3 !important;
+    border-right: solid 2px #f1f1f3 !important;
+  }
+  .ads-container div:last-child {
+    border: none;
+  }
+  .ads-container div img {
+    width: 85%px;
+  }
+}

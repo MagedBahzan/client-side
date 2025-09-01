@@ -1,0 +1,61 @@
+@media only screen and (max-width: 400px) {
+  .footer-section-container {
+    width: 360px;
+    height: auto;
+    margin-top: 40px;
+  }
+
+  .footer-sub-container {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-contacts {
+    width: 100%;
+    height: auto;
+  }
+
+  .buttons-contacts {
+    margin: 30px 0px 24px;
+  }
+
+  .buttons-contacts > div > p {
+    font-size: 15px;
+  }
+
+  .footer-page-sections {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .footer-page-sections > div {
+    margin: 14px 0px;
+  }
+
+  .footer-page-sections > div a {
+    font-size: 14px;
+  }
+
+  .footer-page-sections > div a:first-child,
+  .social-Profiles {
+    font-size: 18px;
+  }
+
+  .social-pages a {
+    width: 45px;
+    height: 45px;
+  }
+
+  .horizintal-line {
+    width: 100%;
+  }
+
+  .footer-section-container > p:last-child {
+    margin: 15px 0;
+    font-size: 14px;
+  }
+}

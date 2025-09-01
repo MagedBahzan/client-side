@@ -1,0 +1,151 @@
+.courses-section-container {
+  width: 1595px;
+  height: 2695px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.courses-section-container > div:first-child {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.courses-top-header {
+  width: 1180px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.courses-top-header > p:first-child {
+  width: 100%;
+  font-size: 48px;
+  font-weight: 700;
+  color: #262626;
+}
+.courses-top-header > p:last-child {
+  width: 100%;
+  font-size: 18px;
+  color: #59595a;
+}
+
+.view-all-courses {
+  width: 120px;
+  height: 65px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.view-all-courses > a{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #262626;
+}
+
+.courses-slides-container {
+  width: 100%;
+  height: 2485px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.courses-slides-container > div {
+  width: 785px;
+  height: 810px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.courses-section-image img {
+  width: 685px;
+  height: 380px;
+  border-radius: 10px;
+}
+
+.courses-section-image > div {
+  width: 685px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.courses-section-image > div > div:first-child {
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #4c4c4d;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.courses-section-image > div > div:last-child {
+  color: #262626;
+  font-size: 20px;
+}
+
+
+.courses-slids-paragraph {
+  width: 685px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.courses-slids-paragraph p:first-child {
+  width: 685px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #262626;
+}
+.courses-slids-paragraph p:last-child {
+  width: 685px;
+  font-size: 18px;
+  color: #4c4c4d;
+  font-weight: 400;
+}
+
+.courses-slids-button-container {
+  width: 685px;
+  height: 85px;
+  border-radius: 8px;
+  background-color: #f7f7f8;
+}
+.courses-slids-button-container a {
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #262626;
+  transition: 0.5s;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses-slids-button-container a:hover {
+  background-color: #d2d2d2;
+}

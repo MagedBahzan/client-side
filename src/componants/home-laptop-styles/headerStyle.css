@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1536px) {
+  .main-header,
+  .top-banner {
+    width: 1400px;
+  }
+  .main-header {
+    height: 122px;
+  }
+  .top-banner {
+    border-radius: 6px;
+    height: 41px;
+  }
+  .top-banner-arrow {
+    width: 20px;
+  }
+  .top-banner p {
+    font-size: 14px;
+  }
+
+  .pages-buttons-container-mobile, .hiden-nav-bar-mobile {
+    display: none;
+  }
+
+  .nav-bar > div {
+    width: 1595px;
+  }
+
+  .nav-bar {
+    height: 81px;
+  }
+  .logo svg {
+    font-size: 25px;
+  }
+  .home-btn {
+    width: 80px;
+    border-radius: 6px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .nav-bar-container {
+    width: 502px;
+  }
+  .login-buttons {
+    width: 169;
+    height: 45px;
+  }
+  .login-buttons div,
+  .login-buttons a {
+    width: 84px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .pages-buttons-container {
+    width: 408px;
+    height: 45px;
+  }
+  .pages-buttons-container a {
+    height: 45px;
+    font-size: 14px;
+  }
+  .logo {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+  }
+}

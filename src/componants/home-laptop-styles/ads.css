@@ -1,0 +1,15 @@
+@media only screen and (max-width:1536px) {
+  .ads-container {
+    width: 1279px;
+    height: 116px;
+    margin-top: 80px;
+  }
+  .ads-container div {
+    height: 68px;
+    width: 175px;
+  }
+  .ads-container div img {
+    width: 56px;
+    height: 28px;
+  }
+}

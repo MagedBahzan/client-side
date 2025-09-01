@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1536px) {
+  .Courses-page-header {
+    width: 1400px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+  }
+  .Courses-page-header p:first-child {
+    font-size: 38px;
+  }
+  .Courses-page-header p:last-child {
+    font-size: 16px;
+    margin-left: 80px;
+  }
+  .courses-list-container {
+    width: 1280px;
+  }
+  .courses-list-container > div {
+    padding: 40px;
+    margin: 40px 0px;
+    border-radius: 10px;
+  }
+  .courses-list-paragraph div:first-child p:first-child {
+    font-size: 20px;
+  }
+  .courses-list-paragraph div:first-child p:last-child {
+    font-size: 16px;
+  }
+  .view-course-button-container a {
+    font-size: 16px;
+    padding: 16px 14px;
+    border-radius: 6px;
+  }
+  .courses-list-image {
+    margin-top: 24px;
+  }
+  .courses-list-image > div {
+    margin-bottom: 24px;
+  }
+  .courses-list-image > div > img {
+    border-radius: 8px;
+  }
+  .info-sub-container p {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  .curriculum-container {
+    margin: 40px 0px;
+  }
+  .curriculum-container p {
+    padding: 20px 24px;
+    font-size: 18px;
+  }
+  .curriculum {
+    width: 15%;
+  }
+  .curriculum p:first-child {
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .curriculum p:last-child {
+    font-size: 16px;
+  }
+}

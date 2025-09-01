@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1536px) {
+  .footer-section-container {
+    width: 100vw;
+    height: 335px;
+    margin-top: 80px;
+  }
+
+  .footer-contacts {
+    width: 305px;
+    height: 175px;
+  }
+
+  .buttons-contacts > div > p {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .footer-sub-container {
+    width: 1280px;
+    height: 175px;
+  }
+
+  .footer-page-sections {
+    width: 735px;
+    height: 160px;
+  }
+
+  .footer-page-sections > div a {
+    height: 25px;
+    font-size: 16px;
+    margin: 3px;
+  }
+
+  .footer-page-sections > div a:first-child,
+  .social-Profiles {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .social-pages {
+    width: 160px;
+    height: 45px;
+    margin-top: 20px;
+  }
+
+  .social-pages a {
+    width: 45px;
+    height: 45px;
+  }
+
+  .horizintal-line {
+    width: 1280px;
+  }
+
+  .footer-section-container > p:last-child {
+    font-size: 14px;
+    font-weight: 300px;
+  }
+}
