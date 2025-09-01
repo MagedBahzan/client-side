@@ -39,8 +39,7 @@ function FooterSection() {
           <div>
             <Link to="/">home</Link>
             <Link to="benefits">benefits</Link>
-            <Link to="courses">our courses</Link>
-            <Link to="testimonials">our testimonials</Link>
+            <Link to="courses">all news</Link>
             <Link to="FAQ">our FAQ</Link>
           </div>
           <div>

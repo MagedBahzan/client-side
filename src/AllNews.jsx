@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import PageHeaderTemplate from "./componants/Courses-page-componants/Courses-page-header";
 
-function CoursesDetailesPage() {
+function AllNews() {
   const param = useParams();
   console.log(param.id);
   const [courseData, setCourseData] = React.useState(null);
@@ -80,4 +80,4 @@ function CoursesDetailesPage() {
   );
 }
 
-export default CoursesDetailesPage;
+export default AllNews;

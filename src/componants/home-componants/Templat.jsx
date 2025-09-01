@@ -22,7 +22,7 @@ function Template(props) {
         <div>
           <p>{props.paragriph}</p>
         </div>
-      )}
+      )} 
       {props.heading ? (
         <div className={props.paragraphClassName}>
           <p>{props.heading}</p>

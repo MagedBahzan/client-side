@@ -18,9 +18,8 @@ function NavBar() {
           </div>
           <div className="pages-buttons-container">
             <NavLink to="/" end className={activLinks}>Home</NavLink>
-            <NavLink to="courses" end className={activLinks}>Courses</NavLink>
+            <NavLink to="courses" end className={activLinks}>News</NavLink>
             <NavLink to="about" end className={activLinks}>About Us</NavLink>
-            <NavLink to="pricing" end className={activLinks}>Pricing</NavLink>
             <NavLink to="contact" end className={activLinks}>Contact</NavLink>
           </div>
         </div>
@@ -34,9 +33,8 @@ function NavBar() {
             <FontAwesomeIcon icon={faBars} />
             <div className="pages-buttons-container-mobile">
               <NavLink to="/" end className={activLinks}>Home</NavLink>
-              <NavLink to="courses" end className={activLinks}>Courses</NavLink>
+              <NavLink to="courses" end className={activLinks}>News</NavLink>
               <NavLink to="about" end className={activLinks}>About Us</NavLink>
-              <NavLink to="pricing" end className={activLinks}>Pricing</NavLink>
               <NavLink to="contact" end className={activLinks}>Contact</NavLink>
             </div>
           </div>
