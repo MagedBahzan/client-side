@@ -2,9 +2,9 @@ import React from "react";
 import "../home-desktop-styles/TestimonialsSection.css";
 import "../home-laptop-styles/TestimonialsSection.css";
 import "../home-phone-styles/TestimonialsSection.css";
-import "../home-desktop-styles/CoursesSection.css";
-import "../home-laptop-styles/CoursesSection.css";
-import "../home-phone-styles/CoursesSection.css";
+import "../home-desktop-styles/breakingNews.css";
+import "../home-laptop-styles/breakingNews.css";
+import "../home-phone-styles/breakingNews.css";
 import Template from "./Templat";
 import { NavLink } from "react-router-dom";
 

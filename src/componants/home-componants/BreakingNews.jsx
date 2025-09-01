@@ -1,12 +1,12 @@
 import React from "react";
-import "../home-desktop-styles/CoursesSection.css";
-import "../home-laptop-styles/CoursesSection.css";
-import "../home-phone-styles/CoursesSection.css";
+import "../home-desktop-styles/breakingNews.css";
+import "../home-laptop-styles/breakingNews.css";
+import "../home-phone-styles/breakingNews.css";
 import Template from "./Templat";
 import Courses from "../CoursesData";
 import { NavLink } from "react-router-dom";
 
-function CoursesSection() {
+function BreakingNews() {
   const courseSlide = Courses.map((ele) => {
     return (
       <Template
@@ -32,11 +32,6 @@ function CoursesSection() {
       <div>
         <div className="courses-top-header">
           <p>Breaking news</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget
-            elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum
-            eget habitasse in velit fringilla feugiat senectus in.
-          </p>
         </div>
         <div className="view-all-courses">
           <NavLink to="courses">View All</NavLink>
@@ -47,4 +42,4 @@ function CoursesSection() {
   );
 }
 
-export default CoursesSection;
+export default BreakingNews;

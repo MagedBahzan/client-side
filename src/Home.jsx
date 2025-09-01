@@ -1,7 +1,7 @@
 import React from "react";
 import Ads from "./componants/home-componants/Ads";
 import BenefitsSection from "./componants/home-componants/BenefitsSection";
-import RecentNews from "./componants/home-componants/CoursesSection";
+import RecentNews from "./componants/home-componants/BreakingNews";
 import PricingSection from "./componants/home-componants/PricingSection";
 import TestimonialsSection from "./componants/home-componants/TestimonialsSection";
 
