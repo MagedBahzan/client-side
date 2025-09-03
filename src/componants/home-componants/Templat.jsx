@@ -11,6 +11,10 @@ function Template(props) {
           <div>
             <div>
               <div>{props.coursTime}</div>
+              <img
+                src={props.avatar}
+                alt="Not found"
+              />
               <div>{props.courseLevel}</div>
             </div>
             <div>{props.profsoerName}</div>
@@ -48,18 +52,7 @@ function Template(props) {
           </button>
         </div>
       )}
-      {!props.avatar ? (
-        <div className={props.slidsButtonContainerClassName}>
-          <NavLink to={"/"+props.link+"/"+props.parm} className={props.slidsButtonClassName}>
-            {props.icon ? (
-              <FontAwesomeIcon icon={props.icon} />
-            ) : (
-              props.buttonName
-            )}
-          </NavLink>
-        </div>
-      ) : null}
-    </div>
+      </div>
   );
 }
 

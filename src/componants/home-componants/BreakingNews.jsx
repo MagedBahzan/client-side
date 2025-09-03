@@ -44,7 +44,7 @@ function BreakingNews() {
         paragraphClassName="courses-slids-paragraph"
         courseImage={ele.imgSrc}
         courseImageClassName="courses-section-image"
-        coursTime={ele.author[0].name}
+        author={ele.author[0].name}
         courseLevel={ele.category}
         avatar={ele.author[0].avatar}
         avatarClassName="avatarClassName"
