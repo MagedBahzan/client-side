@@ -38,7 +38,7 @@
   background-color: #fff;
 }
 
-.view-all-courses > a{
+.view-all-courses > a {
   width: 100%;
   height: 100%;
   display: flex;
@@ -83,6 +83,11 @@
   align-items: flex-end;
 }
 
+.avatarClassName img{
+  width: 60px;
+  height: 60px;
+}
+
 .courses-section-image > div > div:first-child {
   width: 230px;
   display: flex;
@@ -98,7 +103,6 @@
   color: #262626;
   font-size: 20px;
 }
-
 
 .courses-slids-paragraph {
   width: 685px;
