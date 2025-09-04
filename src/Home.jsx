@@ -24,14 +24,9 @@ function Home() {
 
   return (
     <div className="home">
-      {/* <div className="joks--contaner">
-              {<pre>{JSON.stringify(theApiData, null, 2)}</pre>}
-              <p>{count}</p>
-              <button onClick={numCount}>Clic for Counting</button>
-          </div> */}
       <Ads />
       <RecentNews />
-      </div>
+    </div>
   );
 }
 

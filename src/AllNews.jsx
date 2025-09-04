@@ -19,9 +19,9 @@ function AllNews() {
   }, [param.id]);
 
   const courseinnerDetailes = coursedescription ? (
-    coursedescription.map((ele) => {
+    coursedescription.map((ele) => { 
       return (
-        <div key={ele.id}>
+        <div key={ele.id}>  
           <div className="course-Feature-Items-title">
             <p>{ele.title}</p>
             <p>{ele.path}</p>
