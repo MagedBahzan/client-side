@@ -17,8 +17,10 @@ function Home() {
     xhttp.send();
   }, []);
   console.log(theApiData ? theApiData.allDocs : null);
-  const firstDoc = theApiData.allDocs ? theApiData.allDocs[0] : null;
-    console.log(firstDoc);
+  // const firstDoc = theApiData.allDocs ? theApiData.allDocs[0] : null;
+  //   console.log(firstDoc);
+    // const selctedCategory = theApiData ? (theApiData.allDocs).filter((ele) => ele.category === this.includs(ele)) : null;
+    // console.log(selctedCategory);
 
   return (
     <div className="home">
