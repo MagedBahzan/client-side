@@ -35,25 +35,25 @@ function BreakingNews() {
   categoryList()
 
   console.log(newsData);
-  console.log(newsData);
+  console.log(categoryEle);
 
   const newsSlide = newsData.length > 0 && newsData ? newsData.map((ele) => {
     return (
       <Template
         key={ele.id}
         paragraphClassName="courses-slids-paragraph"
-        courseImage={ele.imgSrc}
+        newsImage={ele.imgSrc}
         courseImageClassName="courses-section-image"
         author={ele.author[0].name}
-        courseLevel={ele.category}
+        category={ele.category}
         avatar={ele.author[0].avatar}
         avatarClassName="avatarClassName"
-        paragriph={ele.description}
+        description={ele.description}
         slidsButtonContainerClassName="courses-slids-button-container"
         slidsButtonClassName="courses-slids-button"
         buttonName="Show more"
         // parm={`${ele.heading}`}
-        link="courses"
+        link="news"
       />
     );
   }) : null;
